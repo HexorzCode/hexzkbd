@@ -59,7 +59,7 @@ printf "		       |  _  |  __/>  < (_) | |   / / \n"
 printf "		       |_| |_|\___/_/\_\___/|_|  /___|\n"
 echo
 printf "${purple}"
-printf "		      ===============================\n"
+printf "		       ===============================\n"
 echo
 sleep 0.5
 
@@ -84,7 +84,7 @@ echo
 
 
 
-
+cd Tools
 printf "${red}"
 echo "Starting at ${now} Please Wait......"
 sleep 1.5
@@ -95,7 +95,7 @@ sleep 1
 chmod +x hexzkey.sh
 ./hexzkey.sh attached
 ./hexzkey.sh detach
-clear
+
 printf "${purple}"
 printf "                        ===============================\n"
 printf "${cyan}"
